@@ -94,7 +94,7 @@ config: {
   }
 },
 ```
-post：返回事件，返回值为图片file，进行上传操作
+post：返回事件，返回值为base64,blob,file，进行上传操作
 
 handleCancel：返回事件，返回是否点击取消处理，手动对截图工具控制隐藏
 
