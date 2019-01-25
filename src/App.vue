@@ -90,11 +90,11 @@ export default {
       console.log('---------返回结果-------')
       console.log(data)
       this.isClick = false;
-      this.new_img = window.URL.createObjectURL(data);
+      this.new_img = window.URL.createObjectURL(data.file);
 
-      const url = 'https://quiz.justalk.com:8081/quiz/upload';
+      const url = '';
       const formFile = new FormData();
-      formFile.append('file', data);
+      formFile.append('file', data.file);
 
       const xhr = new XMLHttpRequest();
       xhr.open('post', url, true)//post方式，url为服务器请求地址，true 该参数规定请求是否异步处理

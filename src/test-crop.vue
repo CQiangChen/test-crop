@@ -16,10 +16,26 @@
 
 <script type='text/ecmascript-6'>
 import Cropper from 'cropperjs'
+import lrz from 'lrz';
 import 'cropperjs/dist/cropper.css';
 
 export default {
-  props: ['imgSrc', 'config','filename'],
+  // props: ['imgSrc', 'config','filename','quality'],
+  props:{
+    imgSrc:{
+      type:String
+    },
+    config:{
+      type:Object
+    },
+    filename:{
+      type:String
+    },
+    quality:{
+      type:Number,
+      default:0.6
+    }
+  },
   data () {
     return {
       isBegin: false,
@@ -109,50 +125,57 @@ export default {
             //   console.log(this.option.img)
             // })
 
-            this.handleCompress(image, maxWidth, file.type, 0);
+            this.handleCompress(image.src);
           }
         };
       }
       reader.readAsDataURL(file);
     },
-    handleCompress (img, maxWidth, mimeType, rotateDeg) {
-      //创建画布
-      var cvs = document.createElement('canvas');
-      var width = img.naturalWidth,
-        height = img.naturalHeight,
-        imgRatio = width / height;
-      //
-      if (width > maxWidth) {
-        width = maxWidth;
-        height = width / imgRatio;
-      }
-      cvs.width = width;
-      cvs.height = height;
-      var ctx = cvs.getContext("2d");
-      var destX = 0,
-        destY = 0;
-      if (rotateDeg) {
-        ctx.translate(cvs.width / 2, cvs.height / 2);
-        ctx.rotate(rotateDeg);
-        destX = -width / 2;
-        destY = -height / 2;
-      }
-      ctx.drawImage(img, 0, 0, img.naturalWidth, img.naturalHeight, destX, destY, width, height);
-      //图片质量进行适当压缩
-      var quality = width >= 1200 ? 0.6 :
-        width > 600 ? 0.8 : 1;
-      //导出图片为base64
-      var newImageData = cvs.toDataURL(mimeType, quality);
-      var newFile = this.dataURLtoFile(newImageData,this.filename)
-      // var resultImg = new Image();
-      console.log(newFile);
-      this.$emit('post', newFile.get('croppedImage'));
-      // this.new_img = newImageData;
-      // resultImg.src = newImageData;
-      // this.isClick = false
-      // return resultImg;
-      // console.log(resultImg);
+    handleCompress(img){
+      var self = this;
+      lrz(img,{quality: self.quality}).then((res)=>{
+        console.log(res)
+        self.$emit('post',res)
+      })
     },
+    // handleCompress (img, maxWidth, mimeType, rotateDeg) {
+    //   //创建画布
+    //   var cvs = document.createElement('canvas');
+    //   var width = img.naturalWidth,
+    //     height = img.naturalHeight,
+    //     imgRatio = width / height;
+    //   //
+    //   if (width > maxWidth) {
+    //     width = maxWidth;
+    //     height = width / imgRatio;
+    //   }
+    //   cvs.width = width;
+    //   cvs.height = height;
+    //   var ctx = cvs.getContext("2d");
+    //   var destX = 0,
+    //     destY = 0;
+    //   if (rotateDeg) {
+    //     ctx.translate(cvs.width / 2, cvs.height / 2);
+    //     ctx.rotate(rotateDeg);
+    //     destX = -width / 2;
+    //     destY = -height / 2;
+    //   }
+    //   ctx.drawImage(img, 0, 0, img.naturalWidth, img.naturalHeight, destX, destY, width, height);
+    //   //图片质量进行适当压缩
+    //   var quality = width >= 1200 ? 0.6 :
+    //     width > 600 ? 0.8 : 1;
+    //   //导出图片为base64
+    //   var newImageData = cvs.toDataURL(mimeType, quality);
+    //   var newFile = this.dataURLtoFile(newImageData,this.filename)
+    //   // var resultImg = new Image();
+    //   console.log(newFile);
+    //   this.$emit('post', newFile.get('croppedImage'));
+    //   // this.new_img = newImageData;
+    //   // resultImg.src = newImageData;
+    //   // this.isClick = false
+    //   // return resultImg;
+    //   // console.log(resultImg);
+    // },
     dataURLtoFile (dataurl, filename) { //将base64转换为文件
 
       var arr = dataurl.split(','),
