@@ -1,13 +1,13 @@
 
-**简单版截图，暂时制作截图+压缩（自用，还未完成）**
+# 简单版截图，暂时制作截图+压缩（自用，还未完成)
 
 **我是工具搬运工，搬这搬那，合在一起方便自己用！**
 
 >因为看到有人下载使用，所以先声明下：如果有人需要使用先到一个新的项目中引用试一下，因为暂时为自己的一个项目简单写的，所以很多没有考虑到，不建议使用，如果尝试使用首先建议使用vue，其次可以参考下面的方法。
 
 **使用的插件：**
-截图工具：cropperjs
-压缩工具：lrz
+截图工具：[cropperjs](https://github.com/fengyuanchen/cropperjs)
+压缩工具：[lrz](https://www.npmjs.com/package/lrz)
 
 **该插件是以vue-cli3.x的快速原型开发进行开发，如想自己编辑开发，下载后，操作如下：**
 
@@ -17,13 +17,13 @@ npm install -g @vue/cli-service-global
 vue serve App.vue
 ```
 
-##下载：
+## 下载：
 ```
 npm install --save test-crop
 ```
 
-##使用：
-注：需要配合input使用，传入imgSrc
+## 使用：
+注：需要配合input使用，传入imgSrc,具体使用可以参考src目录下App.vue的引用
 
 **以下例子以Vue为主**
 
