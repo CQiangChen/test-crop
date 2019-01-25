@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 **简单版截图，暂时制作截图+压缩（自用，还未完成）**
 
 **我是工具搬运工，搬这搬那，合在一起方便自己用！**
@@ -17,11 +17,6 @@ npm install -g @vue/cli-service-global
 vue serve App.vue
 ```
 
-<<<<<<< HEAD
-
-
-=======
->>>>>>> 0241178dd7fe7a50e16e74d09cb380b51c9fa7fd
 ##下载：
 ```
 npm install --save test-crop
