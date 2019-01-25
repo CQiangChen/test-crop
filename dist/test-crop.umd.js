@@ -108,13 +108,6 @@ module.exports = function (it, Constructor, name, forbiddenField) {
 
 /***/ }),
 
-/***/ "052f":
-/***/ (function(module, exports, __webpack_require__) {
-
-// extracted by mini-css-extract-plugin
-
-/***/ }),
-
 /***/ "0d08":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -128,17 +121,6 @@ module.exports = function (that, target, C) {
   } return that;
 };
 
-
-/***/ }),
-
-/***/ "0f12":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var _C_Users_chong_AppData_Roaming_npm_node_modules_vue_cli_service_global_node_modules_mini_css_extract_plugin_0_4_5_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_C_Users_chong_AppData_Roaming_npm_node_modules_vue_cli_service_global_node_modules_css_loader_1_0_1_css_loader_index_js_ref_6_oneOf_1_1_C_Users_chong_AppData_Roaming_npm_node_modules_vue_cli_service_global_node_modules_vue_loader_15_4_2_vue_loader_lib_loaders_stylePostLoader_js_C_Users_chong_AppData_Roaming_npm_node_modules_vue_cli_service_global_node_modules_cache_loader_1_2_5_cache_loader_dist_cjs_js_ref_0_0_C_Users_chong_AppData_Roaming_npm_node_modules_vue_cli_service_global_node_modules_vue_loader_15_4_2_vue_loader_lib_index_js_vue_loader_options_test_crop_vue_vue_type_style_index_0_id_000fded3_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("052f");
-/* harmony import */ var _C_Users_chong_AppData_Roaming_npm_node_modules_vue_cli_service_global_node_modules_mini_css_extract_plugin_0_4_5_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_C_Users_chong_AppData_Roaming_npm_node_modules_vue_cli_service_global_node_modules_css_loader_1_0_1_css_loader_index_js_ref_6_oneOf_1_1_C_Users_chong_AppData_Roaming_npm_node_modules_vue_cli_service_global_node_modules_vue_loader_15_4_2_vue_loader_lib_loaders_stylePostLoader_js_C_Users_chong_AppData_Roaming_npm_node_modules_vue_cli_service_global_node_modules_cache_loader_1_2_5_cache_loader_dist_cjs_js_ref_0_0_C_Users_chong_AppData_Roaming_npm_node_modules_vue_cli_service_global_node_modules_vue_loader_15_4_2_vue_loader_lib_index_js_vue_loader_options_test_crop_vue_vue_type_style_index_0_id_000fded3_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_C_Users_chong_AppData_Roaming_npm_node_modules_vue_cli_service_global_node_modules_mini_css_extract_plugin_0_4_5_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_C_Users_chong_AppData_Roaming_npm_node_modules_vue_cli_service_global_node_modules_css_loader_1_0_1_css_loader_index_js_ref_6_oneOf_1_1_C_Users_chong_AppData_Roaming_npm_node_modules_vue_cli_service_global_node_modules_vue_loader_15_4_2_vue_loader_lib_loaders_stylePostLoader_js_C_Users_chong_AppData_Roaming_npm_node_modules_vue_cli_service_global_node_modules_cache_loader_1_2_5_cache_loader_dist_cjs_js_ref_0_0_C_Users_chong_AppData_Roaming_npm_node_modules_vue_cli_service_global_node_modules_vue_loader_15_4_2_vue_loader_lib_index_js_vue_loader_options_test_crop_vue_vue_type_style_index_0_id_000fded3_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
-/* unused harmony reexport * */
- /* unused harmony default export */ var _unused_webpack_default_export = (_C_Users_chong_AppData_Roaming_npm_node_modules_vue_cli_service_global_node_modules_mini_css_extract_plugin_0_4_5_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_C_Users_chong_AppData_Roaming_npm_node_modules_vue_cli_service_global_node_modules_css_loader_1_0_1_css_loader_index_js_ref_6_oneOf_1_1_C_Users_chong_AppData_Roaming_npm_node_modules_vue_cli_service_global_node_modules_vue_loader_15_4_2_vue_loader_lib_loaders_stylePostLoader_js_C_Users_chong_AppData_Roaming_npm_node_modules_vue_cli_service_global_node_modules_cache_loader_1_2_5_cache_loader_dist_cjs_js_ref_0_0_C_Users_chong_AppData_Roaming_npm_node_modules_vue_cli_service_global_node_modules_vue_loader_15_4_2_vue_loader_lib_index_js_vue_loader_options_test_crop_vue_vue_type_style_index_0_id_000fded3_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
 
 /***/ }),
 
@@ -281,12 +263,12 @@ if (typeof window !== 'undefined') {
 // Indicate to webpack that this file can be concatenated
 /* harmony default export */ var setPublicPath = (null);
 
-// CONCATENATED MODULE: C:/Users/chong/AppData/Roaming/npm/node_modules/@vue/cli-service-global/node_modules/_cache-loader@1.2.5@cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules//.cache//vue-loader","cacheIdentifier":"ca0e2238-vue-loader-template"}!C:/Users/chong/AppData/Roaming/npm/node_modules/@vue/cli-service-global/node_modules/_vue-loader@15.4.2@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!C:/Users/chong/AppData/Roaming/npm/node_modules/@vue/cli-service-global/node_modules/_cache-loader@1.2.5@cache-loader/dist/cjs.js??ref--0-0!C:/Users/chong/AppData/Roaming/npm/node_modules/@vue/cli-service-global/node_modules/_vue-loader@15.4.2@vue-loader/lib??vue-loader-options!./test-crop.vue?vue&type=template&id=000fded3&scoped=true&
+// CONCATENATED MODULE: C:/Users/chong/AppData/Roaming/npm/node_modules/@vue/cli-service-global/node_modules/_cache-loader@1.2.5@cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules//.cache//vue-loader","cacheIdentifier":"ca0e2238-vue-loader-template"}!C:/Users/chong/AppData/Roaming/npm/node_modules/@vue/cli-service-global/node_modules/_vue-loader@15.4.2@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!C:/Users/chong/AppData/Roaming/npm/node_modules/@vue/cli-service-global/node_modules/_cache-loader@1.2.5@cache-loader/dist/cjs.js??ref--0-0!C:/Users/chong/AppData/Roaming/npm/node_modules/@vue/cli-service-global/node_modules/_vue-loader@15.4.2@vue-loader/lib??vue-loader-options!./test-crop.vue?vue&type=template&id=2f2a5d1f&scoped=true&
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"simple-crop"},[_c('div',{staticClass:"bottom"},[_c('img',{ref:"cropImg",staticStyle:{"display":"block","max-width":"50%"},attrs:{"src":_vm.imgSrc},on:{"load":_vm.begin}}),_c('div',{staticClass:"btn"},[_c('div',{on:{"click":_vm.end}},[_vm._t("end")],2),_c('div',{on:{"click":_vm.cancel}},[_vm._t("cancel")],2)])])])}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./test-crop.vue?vue&type=template&id=000fded3&scoped=true&
+// CONCATENATED MODULE: ./test-crop.vue?vue&type=template&id=2f2a5d1f&scoped=true&
 
 // EXTERNAL MODULE: C:/Users/chong/AppData/Roaming/npm/node_modules/@vue/cli-service-global/node_modules/_core-js@2.6.1@core-js/modules/es6.typed.uint8-array.js
 var es6_typed_uint8_array = __webpack_require__("eb04");
@@ -3878,39 +3860,37 @@ var cropper = __webpack_require__("5db9");
       this.isBegin = true;
       var img = this.$refs.cropImg;
       var bodyH = document.body.offsetHeight;
-      var bodyW = document.body.offsetWidth;
-      console.dir(img);
+      var bodyW = document.body.offsetWidth; // console.dir(img);
+
       var defaultOption = {
         aspectRatio: 17 / 10,
         minContainerWidth: bodyW,
         minContainerHeight: bodyH,
         // viewMode:1,
         preview: '.showImg',
-        crop: function crop(event) {
-          console.log(event);
-          console.log(event.detail.y);
-          console.log(event.detail.width);
-          console.log(event.detail.height);
-          console.log(event.detail.rotate);
-          console.log(event.detail.scaleX);
-          console.log(event.detail.scaleY);
+        crop: function crop(event) {// console.log(event);
+          // console.log(event.detail.y);
+          // console.log(event.detail.width);
+          // console.log(event.detail.height);
+          // console.log(event.detail.rotate);
+          // console.log(event.detail.scaleX);
+          // console.log(event.detail.scaleY);
         }
       };
-      var options = Object.assign(defaultOption, this.config.options);
-      console.log(options);
+      var options = Object.assign(defaultOption, this.config.options); // console.log(options);
+
       this.cropper = new cropper_esm(img, options);
     },
     end: function end() {
       var _this = this;
 
-      console.log('end');
-      this.cropper.getData();
-      console.dir(this.cropper.getCroppedCanvas());
+      // console.log('end');
+      this.cropper.getData(); // console.dir(this.cropper.getCroppedCanvas())
+
       this.cropper.getCroppedCanvas().toBlob(function (blob) {
-        console.log(blob);
+        // console.log(blob);
         var formData = new FormData();
-        formData.append('croppedImage', blob);
-        console.log(formData.get('croppedImage'));
+        formData.append('croppedImage', blob); // console.log(formData.get('croppedImage'))
 
         if (_this.config.Compression.isTrue) {
           _this.beforeCompression(formData.get('croppedImage')); //如果开启压缩
@@ -3924,11 +3904,11 @@ var cropper = __webpack_require__("5db9");
     beforeCompression: function beforeCompression(file) {
       var _this2 = this;
 
-      var maxWidth = 300; // var file = formData.get('croppedImage');
-
-      var reader = new FileReader(file);
-      console.log(file);
-      console.log(reader); //检测是不是文件
+      // var maxWidth = 300;
+      // var file = formData.get('croppedImage');
+      var reader = new FileReader(file); // console.log(file);
+      // console.log(reader);
+      //检测是不是文件
 
       if (file.type.split('/')[0] !== 'image') {
         alert('you should choose an image file');
@@ -3974,7 +3954,7 @@ var cropper = __webpack_require__("5db9");
       lrz_all_bundle_default()(img, {
         quality: self.quality
       }).then(function (res) {
-        console.log(res);
+        // console.log(res)
         self.$emit('post', res);
       });
     },
@@ -4058,8 +4038,8 @@ var cropper = __webpack_require__("5db9");
 });
 // CONCATENATED MODULE: ./test-crop.vue?vue&type=script&lang=js&
  /* harmony default export */ var test_cropvue_type_script_lang_js_ = (lib_vue_loader_options_test_cropvue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./test-crop.vue?vue&type=style&index=0&id=000fded3&scoped=true&lang=css&
-var test_cropvue_type_style_index_0_id_000fded3_scoped_true_lang_css_ = __webpack_require__("0f12");
+// EXTERNAL MODULE: ./test-crop.vue?vue&type=style&index=0&id=2f2a5d1f&scoped=true&lang=css&
+var test_cropvue_type_style_index_0_id_2f2a5d1f_scoped_true_lang_css_ = __webpack_require__("7bd2");
 
 // CONCATENATED MODULE: C:/Users/chong/AppData/Roaming/npm/node_modules/@vue/cli-service-global/node_modules/_vue-loader@15.4.2@vue-loader/lib/runtime/componentNormalizer.js
 /* globals __VUE_SSR_CONTEXT__ */
@@ -4171,7 +4151,7 @@ var component = normalizeComponent(
   staticRenderFns,
   false,
   null,
-  "000fded3",
+  "2f2a5d1f",
   null
   
 )
@@ -5699,6 +5679,24 @@ module.exports = function (original, length) {
   return new (speciesConstructor(original))(length);
 };
 
+
+/***/ }),
+
+/***/ "7bd2":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var _C_Users_chong_AppData_Roaming_npm_node_modules_vue_cli_service_global_node_modules_mini_css_extract_plugin_0_4_5_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_C_Users_chong_AppData_Roaming_npm_node_modules_vue_cli_service_global_node_modules_css_loader_1_0_1_css_loader_index_js_ref_6_oneOf_1_1_C_Users_chong_AppData_Roaming_npm_node_modules_vue_cli_service_global_node_modules_vue_loader_15_4_2_vue_loader_lib_loaders_stylePostLoader_js_C_Users_chong_AppData_Roaming_npm_node_modules_vue_cli_service_global_node_modules_cache_loader_1_2_5_cache_loader_dist_cjs_js_ref_0_0_C_Users_chong_AppData_Roaming_npm_node_modules_vue_cli_service_global_node_modules_vue_loader_15_4_2_vue_loader_lib_index_js_vue_loader_options_test_crop_vue_vue_type_style_index_0_id_2f2a5d1f_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("83a7");
+/* harmony import */ var _C_Users_chong_AppData_Roaming_npm_node_modules_vue_cli_service_global_node_modules_mini_css_extract_plugin_0_4_5_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_C_Users_chong_AppData_Roaming_npm_node_modules_vue_cli_service_global_node_modules_css_loader_1_0_1_css_loader_index_js_ref_6_oneOf_1_1_C_Users_chong_AppData_Roaming_npm_node_modules_vue_cli_service_global_node_modules_vue_loader_15_4_2_vue_loader_lib_loaders_stylePostLoader_js_C_Users_chong_AppData_Roaming_npm_node_modules_vue_cli_service_global_node_modules_cache_loader_1_2_5_cache_loader_dist_cjs_js_ref_0_0_C_Users_chong_AppData_Roaming_npm_node_modules_vue_cli_service_global_node_modules_vue_loader_15_4_2_vue_loader_lib_index_js_vue_loader_options_test_crop_vue_vue_type_style_index_0_id_2f2a5d1f_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_C_Users_chong_AppData_Roaming_npm_node_modules_vue_cli_service_global_node_modules_mini_css_extract_plugin_0_4_5_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_C_Users_chong_AppData_Roaming_npm_node_modules_vue_cli_service_global_node_modules_css_loader_1_0_1_css_loader_index_js_ref_6_oneOf_1_1_C_Users_chong_AppData_Roaming_npm_node_modules_vue_cli_service_global_node_modules_vue_loader_15_4_2_vue_loader_lib_loaders_stylePostLoader_js_C_Users_chong_AppData_Roaming_npm_node_modules_vue_cli_service_global_node_modules_cache_loader_1_2_5_cache_loader_dist_cjs_js_ref_0_0_C_Users_chong_AppData_Roaming_npm_node_modules_vue_cli_service_global_node_modules_vue_loader_15_4_2_vue_loader_lib_index_js_vue_loader_options_test_crop_vue_vue_type_style_index_0_id_2f2a5d1f_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* unused harmony reexport * */
+ /* unused harmony default export */ var _unused_webpack_default_export = (_C_Users_chong_AppData_Roaming_npm_node_modules_vue_cli_service_global_node_modules_mini_css_extract_plugin_0_4_5_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_C_Users_chong_AppData_Roaming_npm_node_modules_vue_cli_service_global_node_modules_css_loader_1_0_1_css_loader_index_js_ref_6_oneOf_1_1_C_Users_chong_AppData_Roaming_npm_node_modules_vue_cli_service_global_node_modules_vue_loader_15_4_2_vue_loader_lib_loaders_stylePostLoader_js_C_Users_chong_AppData_Roaming_npm_node_modules_vue_cli_service_global_node_modules_cache_loader_1_2_5_cache_loader_dist_cjs_js_ref_0_0_C_Users_chong_AppData_Roaming_npm_node_modules_vue_cli_service_global_node_modules_vue_loader_15_4_2_vue_loader_lib_index_js_vue_loader_options_test_crop_vue_vue_type_style_index_0_id_2f2a5d1f_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
+
+/***/ }),
+
+/***/ "83a7":
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
 
 /***/ }),
 

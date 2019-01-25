@@ -48,7 +48,7 @@ export default {
       var img = this.$refs.cropImg;
       var bodyH = document.body.offsetHeight;
       var bodyW = document.body.offsetWidth;
-      console.dir(img);
+      // console.dir(img);
       var defaultOption = {
         aspectRatio: 17 / 10,
         minContainerWidth: bodyW,
@@ -56,28 +56,28 @@ export default {
         // viewMode:1,
         preview: '.showImg',
         crop (event) {
-          console.log(event);
-          console.log(event.detail.y);
-          console.log(event.detail.width);
-          console.log(event.detail.height);
-          console.log(event.detail.rotate);
-          console.log(event.detail.scaleX);
-          console.log(event.detail.scaleY);
+          // console.log(event);
+          // console.log(event.detail.y);
+          // console.log(event.detail.width);
+          // console.log(event.detail.height);
+          // console.log(event.detail.rotate);
+          // console.log(event.detail.scaleX);
+          // console.log(event.detail.scaleY);
         },
       }
       var options = Object.assign(defaultOption, this.config.options);
-      console.log(options);
+      // console.log(options);
       this.cropper = new Cropper(img, options)
     },
     end () {
-      console.log('end');
+      // console.log('end');
       this.cropper.getData();
-      console.dir(this.cropper.getCroppedCanvas())
+      // console.dir(this.cropper.getCroppedCanvas())
       this.cropper.getCroppedCanvas().toBlob((blob) => {
-        console.log(blob);
+        // console.log(blob);
         const formData = new FormData();
         formData.append('croppedImage', blob);
-        console.log(formData.get('croppedImage'))
+        // console.log(formData.get('croppedImage'))
         if (this.config.Compression.isTrue) {
           this.beforeCompression(formData.get('croppedImage'));     //如果开启压缩
         } else {
@@ -86,12 +86,12 @@ export default {
       })
     },
     beforeCompression (file) {
-      var maxWidth = 300;
+      // var maxWidth = 300;
       // var file = formData.get('croppedImage');
       var reader = new FileReader(file);
 
-      console.log(file);
-      console.log(reader);
+      // console.log(file);
+      // console.log(reader);
       //检测是不是文件
       if (file.type.split('/')[0] !== 'image') {
         alert('you should choose an image file');
@@ -134,7 +134,7 @@ export default {
     handleCompress(img){
       var self = this;
       lrz(img,{quality: self.quality}).then((res)=>{
-        console.log(res)
+        // console.log(res)
         self.$emit('post',res)
       })
     },
