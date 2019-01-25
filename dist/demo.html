@@ -1,0 +1,17 @@
+<meta charset="utf-8">
+<title>test-crop demo</title>
+<script src="https://unpkg.com/vue"></script>
+<script src="./test-crop.umd.js"></script>
+<link rel="stylesheet" href="./test-crop.css">
+
+<div id="app">
+  <demo></demo>
+</div>
+
+<script>
+new Vue({
+  components: {
+    demo: test-crop
+  }
+}).$mount('#app')
+</script>
